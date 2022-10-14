@@ -1,0 +1,110 @@
+* {
+    border: 0px;
+    outline: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto 0px auto;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(230, 229, 229);
+    border: 1px solid gray;
+    border-radius: 10%;
+}
+
+.text {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-around;
+    flex: 1
+}
+
+.btnsub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    font-size: 1rem;
+    background-color: #0d6efd;
+    color: white;
+    border: 2px solid white;
+    outline: 1px solid darkgrey;
+    border-radius: 10%;
+    transition-duration: .2s;
+}
+
+/* I believe I referred to w3schools for help with changing the button color when hovering */
+
+.btnsub:hover {
+    background-color: #5e9eff;
+}
+
+.btnres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    font-size: 1rem;
+    background-color: #198754;
+    color: white;
+    border: 2px solid white;
+    outline: 1px solid darkgrey;
+    border-radius: 10%;
+    transition-duration: .2s;
+}
+
+.btnres:hover {
+    background-color: #668d7b;
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    font-size: 1rem;
+    background-color: #ffc107;
+    color: white;
+    border: 2px solid white;
+    outline: 1px solid darkgrey;
+    border-radius: 10%;
+    transition-duration: .2s
+}
+
+.btn2:hover {
+    background-color: #ffd969;
+}
